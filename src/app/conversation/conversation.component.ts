@@ -44,20 +44,20 @@ export class Conversations implements OnInit {
   }
 
   resetConversation() {
-    let emptyConversation: Conversation = {
-      _id: null,
-      creator: this.authService.getUserName(),
-      date: '',
-      talkwith: '',
-      relationship: '',
-      topic: '',
-      question: '',
-      answer: '',
-      conversationtype: '',
-      rating: 0,
-      feeling: 0
-    };
-    this.selectedConversation = emptyConversation;
+    //let emptyConversation: Conversation = {
+    //  _id: null,
+    //  creator: this.authService.getUserName(),
+    //  date: '',
+    //  talkwith: '',
+    //  relationship: '',
+    //  topic: '',
+    //  question: '',
+    //  answer: '',
+    //  conversationtype: '',
+    //  rating: 0,
+    //  feeling: 0
+    //};
+    //this.selectedConversation = emptyConversation;
   }
 
   saveConversation(conversation: Conversation) {
