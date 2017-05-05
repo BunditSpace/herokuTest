@@ -19,7 +19,6 @@ import { ConversationList } from './conversation-list.component';
 import { ConversationDetail } from './conversation-detail.component';
 import { ConfigService } from './../shared/services/config.service';
 import { CommonModule } from "@angular/common";
-//import { StarRatingModule } from 'angular-star-rating';
 
 @NgModule({
   imports: [
@@ -29,11 +28,10 @@ import { CommonModule } from "@angular/common";
     HttpModule, 
     FormsModule, 
     CommonModule ,
-    //StarRatingModule,
     ModalModule.forRoot(),
     ReactiveFormsModule
   ],
-  exports: [ ],
+  exports: [ RatingComponent ],
   schemas: [ CUSTOM_ELEMENTS_SCHEMA ],
   declarations: [ Conversations, ConversationList, ConversationDetail, RatingComponent ],
   providers: [AuthenticationService, LoggedInGuard, ConversationService, ConfigService],
