@@ -9,8 +9,8 @@ import { ConversationList } from './conversation-list.component';
 
 @Component({
     selector: 'conversation',
-    templateUrl: './Conversation.html'
-    //changeDetection: ChangeDetectionStrategy.OnPush
+    templateUrl: './Conversation.html',
+    changeDetection: ChangeDetectionStrategy.OnPush
 })
 
 export class Conversations implements OnInit {
