@@ -9,7 +9,7 @@ import { ConversationList } from './conversation-list.component';
 
 @Component({
     selector: 'conversation',
-    templateUrl: `<div>Hello</div>`,
+	templateUrl: './conversation-display.html',
     changeDetection: ChangeDetectionStrategy.OnPush
 })
 
