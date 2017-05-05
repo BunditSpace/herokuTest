@@ -1,7 +1,7 @@
 import { AuthenticationService } from './../auth/services/authentication.service';
 import {Component,  ChangeDetectionStrategy, OnInit } from '@angular/core';
 
-import { Conversation } from './conversation';
+//import { Conversation } from './conversation';
 import { ConversationService } from './services/conversation.service';
 import { ConversationDetail } from './conversation-detail.component';
 import { ConversationList } from './conversation-list.component';
@@ -9,7 +9,7 @@ import { ConversationList } from './conversation-list.component';
 
 @Component({
     selector: 'conversation',
-    templateUrl: './Conversation.html',
+    templateUrl: '<div>Hello</div>',
     changeDetection: ChangeDetectionStrategy.OnPush
 })
 
