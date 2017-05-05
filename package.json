@@ -101,10 +101,8 @@
     "istanbul-instrumenter-loader": "^0.2.0",
     "jasmine-core": "2.5.2",
     "jasmine-spec-reporter": "3.2.0",
-    "json-loader": "^0.5.4"
-  },
-  "devDependencies": {
-    "karma": "1.5.0",
+    "json-loader": "^0.5.4",
+	"karma": "1.5.0",
     "karma-chrome-launcher": "2.0.0",
     "karma-cli": "1.0.1",
     "karma-coverage-istanbul-reporter": "0.3.0",
@@ -121,5 +119,8 @@
     "phantomjs-polyfill": "0.0.2",
     "phantomjs-prebuilt": "^2.1.7",
     "protractor": "5.1.1"
+  },
+  "devDependencies": {
+
   }
 }
